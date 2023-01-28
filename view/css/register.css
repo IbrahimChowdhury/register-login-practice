@@ -1,0 +1,16 @@
+.container{
+    width: 35% ;
+background-color: rgb(200, 193, 193);
+box-shadow: 3px 6px 9px rgb(102, 95, 95);
+
+}
+.d1{
+    display: flex;
+    align-items: center;
+    
+}
+@media only screen and (max-width: 700px) {
+    .container{
+        width: 90%;
+    }
+  }
